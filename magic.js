@@ -1,13 +1,11 @@
 // magic.js
 $(document).ready(function() {
-
 	// process the form
 	$('form').submit(function(event) {
-
 		$('.form-group').removeClass('has-error'); // remove the error class
 		$('.help-block').remove(); // remove the error text
-
-		// get the form data
+        //making good of git
+		// get the form 
 		// there are many ways to get this data using jQuery (you can use the class or id also)
 		var formData = {
 			'name' 				: $('input[name=name]').val(),
