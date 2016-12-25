@@ -2,7 +2,9 @@
 $(document).ready(function() {
 	// process the form
 	$('form').submit(function(event) {
-		$('.form-group').removeClass('has-error'); // remove the error class
+	    //for taking remove class from html tag	
+        $('.form-group').removeClass('has-error'); // remove the error class
+        //taking change to make help-block remove`
 		$('.help-block').remove(); // remove the error text
         //making good of git
 		// get the form 
